@@ -1,0 +1,20 @@
+{
+  "name": "Guloggratis-Light",
+  "version": "1.0.0",
+  "description": "Guloggratis needs more people :)",
+  "main": " ",
+  "repository": "git@github.com:josephluck/next-typescript-monorepo.git",
+  "author": "Brian Demant <brian.demant@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "postinstall": "rexreplace \"followSymlinks: false\" \"followSymlinks: true\" ./node_modules/watchpack/lib/DirectoryWatcher.js -V"
+  },
+  "devDependencies": {
+    "rexreplace": "^4.1.1"
+  },
+  "workspaces": [
+    "site",
+    "api"
+  ]
+}

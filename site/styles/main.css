@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+body {
+    @apply p-4 bg-green-200;
+}
+
+@tailwind utilities;
