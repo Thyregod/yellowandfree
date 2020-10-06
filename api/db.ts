@@ -1,6 +1,6 @@
 import * as faker from 'faker'
 
-type SalesType = 'buy' | 'sell'
+export type SalesType = 'buy' | 'sell'
 
 export namespace Models {
 	export interface Listing {
